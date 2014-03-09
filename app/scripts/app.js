@@ -4,7 +4,8 @@ angular.module('budgetApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'ngAnimate'
 ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
@@ -15,6 +16,6 @@ angular.module('budgetApp', [
       .otherwise({
         redirectTo: '/'
       });
-      
+
     $locationProvider.html5Mode(true);
   });

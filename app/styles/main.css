@@ -24,11 +24,11 @@ body {
 }
 
 .row-animate.ng-enter {
-    -webkit-transition: 0.3s linear all; /* Chrome */
-    transition: 0.3s linear all;
+    -webkit-transition: 3s linear all; /* Chrome */
+    transition: 3s linear all;
     opacity: 0;
 }
- 
+
 .row-animate.ng-enter-active {
     opacity: 1;
 }
@@ -52,7 +52,7 @@ body {
     padding-bottom: 24px;
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.59);
     position:relative;
-    background-image: url('../images/handmadepaper.png');    
+    background-image: url('../images/handmadepaper.png');
     list-style-type: none;
     padding-left: 0px;
 }
@@ -74,7 +74,7 @@ body {
     font-size:20px;
     padding-top: 12px;
     padding-bottom: 12px;
-    padding-left:24px; 
+    padding-left:24px;
     clear: both;
 }
 
@@ -83,10 +83,10 @@ body {
     background-image: url('../images/delete-button.png');
     width: 40px;
     height:40px;
-    background-repeat:no-repeat;   
+    background-repeat:no-repeat;
     margin-top: -2px;
     background-position: center;
-    background-position-y: 0px;     
+    background-position-y: 0px;
 }
 
 .budget-delete-link:active {
@@ -131,7 +131,7 @@ body {
 .amount-input {
     width: 95px;
 /*    margin-left:115px;*/
-}   
+}
 
 #total-container {
     float: left;
@@ -147,9 +147,9 @@ body {
 }
 
 #total-container h4 {
-    font-size: 60px;        
+    font-size: 60px;
     padding-top: 60px;
-    text-shadow: 0px 2px #fff;        
+    text-shadow: 0px 2px #fff;
 }
 
 
@@ -166,7 +166,7 @@ body {
     #total-container > * {
         width: 100%;
         text-align: center;
-    }   
+    }
 
     #budget-list {
         float: none;

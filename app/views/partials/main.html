@@ -1,7 +1,21 @@
 <ul id="budget-list">
   <li class="budget-heading">Money</li>
 
-  <li class="budget-row" ng-repeat="item in budgetItems"> 
+   <li class="budget-input budget-row">
+     <input  class="description-input"
+             placeholder="Add income item"
+             ng-model="newItem.description"
+             ng-keyup="add($event)" />
+
+
+     <input  class="amount-input"
+             placeholder="amount"
+             ng-model="newItem.amount"
+             ng-keyup="add($event)" />
+   </li>
+
+
+  <li class="budget-row row-animate" ng-repeat="item in budgetItems">
     <div class="budget-description">{{item.description}}</div>
     <div class="budget-amount">{{item.amount}}</div>
   </li>
